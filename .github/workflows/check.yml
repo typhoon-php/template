@@ -21,7 +21,7 @@ jobs:
       - run: composer validate
       - run: composer normalize --dry-run
       - run: composer check-require
-      - run: composer unused
+      - run: composer check-unused
 
   lint:
     runs-on: ubuntu-latest
