@@ -56,16 +56,16 @@
         }
     },
     "scripts": {
+        "bump-dev": [
+            "@composer bump --dev-only",
+            "@composer bin all bump --dev-only"
+        ],
         "check-require": "tools/composer-require-checker/vendor/bin/composer-require-checker",
         "check-unused": "tools/composer-unused/vendor/bin/composer-unused",
         "fixcs": "php-cs-fixer fix --diff",
         "infection": "infection --show-mutations",
         "pre-command-run": "mkdir -p var",
         "psalm": "tools/psalm/vendor/bin/psalm --show-info --no-diff --no-cache",
-        "test": "phpunit",
-        "bump-dev": [
-            "@composer bump --dev-only",
-            "@composer bin all bump --dev-only"
-        ]
+        "test": "phpunit"
     }
 }
