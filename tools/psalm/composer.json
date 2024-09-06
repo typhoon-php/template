@@ -2,15 +2,11 @@
     "require-dev": {
         "phpunit/phpunit": "^10.5.31",
         "psalm/plugin-phpunit": "^0.18.4",
-        "vimeo/psalm": "^5.25.0"
+        "vimeo/psalm": "^5.25.0",
+        "typhoon/check-visibility-psalm-plugin": "^0.1.0"
     },
     "conflict": {
         "netresearch/jsonmapper": "<4"
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Typhoon\\Tools\\Psalm\\": "src/"
-        }
     },
     "config": {
         "platform": {

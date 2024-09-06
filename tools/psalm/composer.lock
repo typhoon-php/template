@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3aa54fc452424d71a7a98fbc2207e98f",
+    "content-hash": "8601c31417bd2e2679c6c5b4c9ff6b92",
     "packages": [],
     "packages-dev": [
         {
@@ -3551,6 +3551,75 @@
                 }
             ],
             "time": "2024-03-03T12:36:25+00:00"
+        },
+        {
+            "name": "typhoon/check-visibility-psalm-plugin",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/typhoon-php/check-visibility-psalm-plugin.git",
+                "reference": "1d6aa895053b579db3c362d118df6b2cf96b88d1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/typhoon-php/check-visibility-psalm-plugin/zipball/1d6aa895053b579db3c362d118df6b2cf96b88d1",
+                "reference": "1d6aa895053b579db3c362d118df6b2cf96b88d1",
+                "shasum": ""
+            },
+            "require": {
+                "nikic/php-parser": "^4 || ^5",
+                "php": "^8.1",
+                "vimeo/psalm": "^5.25"
+            },
+            "require-dev": {
+                "bamarni/composer-bin-plugin": "^1.8.2",
+                "ergebnis/composer-normalize": "^2.43.0",
+                "friendsofphp/php-cs-fixer": "^3.64.0",
+                "phpyh/coding-standard": "^2.6.2",
+                "symfony/var-dumper": "^6.4.11 || ^7.1.3"
+            },
+            "type": "psalm-plugin",
+            "extra": {
+                "bamarni-bin": {
+                    "bin-links": false,
+                    "forward-command": true,
+                    "target-directory": "tools"
+                },
+                "psalm": {
+                    "pluginClass": "Typhoon\\CheckVisibilityPsalmPlugin\\CheckVisibilityPlugin"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Typhoon\\CheckVisibilityPsalmPlugin\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Valentin Udaltsov",
+                    "email": "udaltsov.valentin@gmail.com"
+                },
+                {
+                    "name": "Typhoon Team",
+                    "homepage": "https://github.com/orgs/typhoon-php/people"
+                }
+            ],
+            "description": "Ensures classes and functions have @api or @internal annotation",
+            "support": {
+                "issues": "https://github.com/typhoon-php/check-visibility-psalm-plugin/issues",
+                "source": "https://github.com/typhoon-php/check-visibility-psalm-plugin/tree/0.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://www.tinkoff.ru/cf/5MqZQas2dk7",
+                    "type": "custom"
+                }
+            ],
+            "time": "2024-09-06T21:28:09+00:00"
         },
         {
             "name": "vimeo/psalm",
