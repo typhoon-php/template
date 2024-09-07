@@ -2,7 +2,7 @@
     "name": "typhoon/template",
     "description": "Typhoon Template",
     "license": "MIT",
-    "type": "project",
+    "type": "library",
     "authors": [
         {
             "name": "Valentin Udaltsov",
