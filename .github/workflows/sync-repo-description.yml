@@ -1,3 +1,5 @@
+name: Sync repository description
+
 on:
   workflow_dispatch: ~
   push:
