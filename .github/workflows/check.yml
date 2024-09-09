@@ -13,8 +13,8 @@ jobs:
   phpunit:
     uses: typhoon-php/.github/.github/workflows/phpunit.yml@main
     # secrets:
-    #   codecov-token: XXX
+    #   codecov-token: ${{ secrets.CODECOV_TOKEN }}
   infection:
     uses: typhoon-php/.github/.github/workflows/infection.yml@main
     # secrets:
-    #   stryker-api-key: XXX
+    #   stryker-api-key: ${{ secrets.STRYKER_DASHBOARD_API_KEY }}
