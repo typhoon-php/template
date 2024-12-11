@@ -1,6 +1,6 @@
 {
     "require-dev": {
-        "infection/infection": "^0.29.6"
+        "infection/infection": "^0.29.8"
     },
     "config": {
         "allow-plugins": {
@@ -8,6 +8,8 @@
         },
         "platform": {
             "php": "8.1"
-        }
+        },
+        "sort-packages": true,
+        "bump-after-update": "dev"
     }
 }
