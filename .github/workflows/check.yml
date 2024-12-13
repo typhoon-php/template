@@ -1,22 +1,9 @@
-name: Check code
-
 on:
   push:
     branches: ['main', '*.*.x']
   pull_request: ~
 
 jobs:
-  composer:
-    uses: typhoon-php/.github/.github/workflows/composer.yml@main
-  php-cs-fixer:
-    uses: typhoon-php/.github/.github/workflows/php-cs-fixer.yml@main
-  psalm:
-    uses: typhoon-php/.github/.github/workflows/psalm.yml@main
-  phpunit:
-    uses: typhoon-php/.github/.github/workflows/phpunit.yml@main
-    # secrets:
-    #   codecov-token: ${{ secrets.CODECOV_TOKEN }}
-  infection:
-    uses: typhoon-php/.github/.github/workflows/infection.yml@main
-    # secrets:
-    #   stryker-api-key: ${{ secrets.STRYKER_DASHBOARD_API_KEY }}
+  check:
+    uses: typhoon-php/.github/.github/workflows/check.yml@main
+    secrets: inherit
