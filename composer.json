@@ -57,7 +57,7 @@
     "scripts": {
         "check-require": "tools/composer-require-checker/vendor/bin/composer-require-checker",
         "check-unused": "tools/composer-unused/vendor/bin/composer-unused",
-        "fixcs": "php-cs-fixer fix --diff",
+        "fixcs": "php-cs-fixer fix --diff --verbose",
         "infection": "tools/infection/vendor/bin/infection --show-mutations",
         "pre-command-run": "mkdir -p var",
         "psalm": "tools/psalm/vendor/bin/psalm --show-info --no-diff --no-cache",
