@@ -21,8 +21,8 @@
         "dragon-code/benchmark": "^2.6",
         "ergebnis/composer-normalize": "^2.45.0",
         "friendsofphp/php-cs-fixer": "^3.65.0",
-        "phpstan/phpstan": "^1.12.12",
-        "phpunit/phpunit": "^10.5.38",
+        "phpstan/phpstan": "^1.12.13",
+        "phpunit/phpunit": "^10.5.40",
         "phpyh/coding-standard": "^2.6.2",
         "symfony/var-dumper": "^6.4.15 || ^7.1.3"
     },
@@ -41,11 +41,11 @@
             "bamarni/composer-bin-plugin": true,
             "ergebnis/composer-normalize": true
         },
+        "bump-after-update": "dev",
         "platform": {
             "php": "8.1"
         },
-        "sort-packages": true,
-        "bump-after-update": "dev"
+        "sort-packages": true
     },
     "extra": {
         "bamarni-bin": {

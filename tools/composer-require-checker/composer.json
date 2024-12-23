@@ -3,10 +3,10 @@
         "maglnet/composer-require-checker": "^4.7.1"
     },
     "config": {
+        "bump-after-update": "dev",
         "platform": {
             "php": "8.1"
         },
-        "sort-packages": true,
-        "bump-after-update": "dev"
+        "sort-packages": true
     }
 }
