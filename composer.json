@@ -60,7 +60,7 @@
         "fixcs": "php-cs-fixer fix --diff --verbose",
         "infection": "tools/infection/vendor/bin/infection --show-mutations",
         "pre-command-run": "mkdir -p var",
-        "psalm": "tools/psalm/vendor/bin/psalm --show-info --no-diff --no-cache",
+        "phpstan": "tools/phpstan/vendor/bin/phpstan analyze",
         "test": "phpunit"
     }
 }

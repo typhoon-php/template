@@ -6,5 +6,6 @@
 /.php-cs-fixer.dist.php  export-ignore
 /composer.lock           export-ignore
 /infection.json.dist     export-ignore
+/phpstan.dist.neon       export-ignore
 /phpunit.xml.dist        export-ignore
 /psalm.xml.dist          export-ignore
