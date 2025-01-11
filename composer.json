@@ -59,8 +59,8 @@
         "check-unused": "tools/composer-unused/vendor/bin/composer-unused",
         "fixcs": "php-cs-fixer fix --diff --verbose",
         "infection": "tools/infection/vendor/bin/infection --show-mutations",
-        "pre-command-run": "mkdir -p var",
         "phpstan": "tools/phpstan/vendor/bin/phpstan analyze",
+        "pre-command-run": "mkdir -p var",
         "test": "phpunit"
     }
 }
