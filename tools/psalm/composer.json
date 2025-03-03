@@ -1,11 +1,12 @@
 {
     "require-dev": {
-        "phpstan/phpstan": "^2.1.6"
+        "vimeo/psalm": "^6.5",
+        "typhoon/check-visibility-psalm-plugin": "^0.1.1"
     },
     "config": {
         "bump-after-update": "dev",
         "platform": {
-            "php": "8.1"
+            "php": "8.1.17"
         },
         "sort-packages": true
     }

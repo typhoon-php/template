@@ -1,8 +1,11 @@
 {
     "require-dev": {
-        "phpstan/phpstan": "^2.1.6"
+        "ergebnis/composer-normalize": "^2.45"
     },
     "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true
+        },
         "bump-after-update": "dev",
         "platform": {
             "php": "8.1"

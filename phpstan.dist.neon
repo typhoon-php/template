@@ -4,9 +4,9 @@ parameters:
         - src
         - tests
     checkBenevolentUnionTypes: true
-    # ignoreErrors:
-    #     -
-    #         identifier: missingType.generics
-    editorUrl: '=>'
+    #ignoreErrors:
+    #    - { identifier: missingType.generics }
+    #    - { identifier: return.unusedType }
+    editorUrl: ''
     editorUrlTitle: '%%file%%:%%line%%'
     tmpDir: ./var/phpstan
