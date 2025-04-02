@@ -39,7 +39,7 @@
         <classAndDescendants name="RuntimeException"/>
     </ignoreExceptions>
 
-    <issueHandlers>
+    <!--<issueHandlers>
         <PluginIssue name="UnspecifiedVisibility">
             <errorLevel type="suppress">
                 <directory name="tests"/>
@@ -50,7 +50,7 @@
                 <directory name="tests"/>
             </errorLevel>
         </UnusedClass>
-    </issueHandlers>
+    </issueHandlers>-->
 
     <forbiddenFunctions>
         <function name="dd"/>
