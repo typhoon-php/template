@@ -40,6 +40,7 @@
     </ignoreExceptions>
 
     <!--<issueHandlers>
+        <MissingOverrideAttribute errorLevel="suppress"/>
         <PluginIssue name="UnspecifiedVisibility">
             <errorLevel type="suppress">
                 <directory name="tests"/>
