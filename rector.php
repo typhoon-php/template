@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 use Rector\Config\RectorConfig;
 use Rector\Php80\Rector\Class_\StringableForToStringRector;
-use Rector\Php83\Rector\ClassMethod\AddOverrideAttributeToOverriddenMethodsRector;
 
 return RectorConfig::configure()
     ->withPaths([
@@ -16,5 +15,5 @@ return RectorConfig::configure()
     ->withPhpSets()
     ->withSkip([
         StringableForToStringRector::class,
-        AddOverrideAttributeToOverriddenMethodsRector::class,
+        // Rector\Php83\Rector\ClassMethod\AddOverrideAttributeToOverriddenMethodsRector::class,
     ]);
