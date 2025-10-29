@@ -14,12 +14,12 @@
         }
     ],
     "require": {
-        "php": "^8.1"
+        "php": "^8.2"
     },
     "require-dev": {
         "bamarni/composer-bin-plugin": "^1.8.2",
-        "phpunit/phpunit": "^10.5.46",
-        "symfony/var-dumper": "^6.4.21 || ^7.2.3"
+        "phpunit/phpunit": "^10.5.58",
+        "symfony/var-dumper": "^7.3.5"
     },
     "autoload": {
         "psr-4": {
@@ -37,7 +37,7 @@
         },
         "bump-after-update": "dev",
         "platform": {
-            "php": "8.1"
+            "php": "8.2"
         },
         "sort-packages": true
     },
