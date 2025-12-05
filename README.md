@@ -1,13 +1,7 @@
-# Typhoon Template
+# Typhoon Repository Template
 
-[![PHP Version Requirement](https://img.shields.io/packagist/dependency-v/typhoon/template/php)](https://packagist.org/packages/typhoon/template)
-[![GitHub Release](https://img.shields.io/github/v/release/typhoon-php/template)](https://github.com/typhoon-php/template/releases)
-[![PHPStan](https://img.shields.io/badge/phpstan%20level-max-brightgreen.svg?style=flat&logo=php)](phpstan.dist.neon)
-[![Code Coverage](https://codecov.io/gh/typhoon-php/template/branch/0.1.x/graph/badge.svg)](https://codecov.io/gh/typhoon-php/template/tree/0.1.x)
-[![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Ftyphoon-php%2Ftemplate%2F0.1.x)](https://dashboard.stryker-mutator.io/reports/github.com/typhoon-php/template/0.1.x)
+## Usage
 
-## Installation
-
-```shell
-composer require typhoon/template
-```
+1. Create a new repository using this template.
+2. Clone it.
+3. Run `make` to scaffold the project.
